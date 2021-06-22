@@ -42,7 +42,12 @@
 }
 .content{
     border: 5px solid purple;
+}
+
+.sidebar{
     width: 25%;
+    border: 5px solid;
+    flex: none;
 }
 
 .top-menu{
@@ -73,6 +78,11 @@
     color: floralwhite;
 }
 
+.top-menu ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
 .center-menu{
     margin: auto;
     padding: 10px;
@@ -101,6 +111,11 @@
     color: floralwhite;
 }
 
+.center-menu ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
 .bottom-menu{
     margin: auto;
     padding: 10px;
@@ -127,6 +142,126 @@
 .bottom-menu ul li a{
     text-decoration: none;
     color: floralwhite;
+}
+
+.bottom-menu ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.mid-sec{
+    width: 73.2%;
+    border: 5px solid;
+}
+
+.big-heading{
+    padding: 10px;
+}
+
+.big-heading-text{
+    width: 45%;
+}
+
+.big-heading-text h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.big-heading-text p{
+    text-align: justify;
+    font-family: "lato", sans-serif;
+}
+
+.big-heading-text input{
+    padding: 8px;
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.big-heading-text input:hover{
+    color: black;
+    background-color: rgb(189, 62, 189);
+}
+
+.big-heading-img{
+    width: 50%;
+}
+
+.big-heading-img img{
+    width: 300px;
+    padding: 15px;
+    margin: auto 50px;
+}
+
+.services{
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+}
+
+.sec-1{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.sec-1 img{
+    width: 55px;
+}
+
+.sec-1 h3{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.sec-1 p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sec-2{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.sec-2 img{
+    width: 55px;
+}
+
+.sec-2 h3{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.sec-2 p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.sec-3{
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.sec-3 img{
+    width: 55px;
+}
+
+.sec-3 h3{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.sec-3 p{
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .column{
