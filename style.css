@@ -1,3 +1,137 @@
+.container{
+    width: 1074px;
+    margin: 0 auto;
+    background: grey;
+}
+
 .topbar{
     border: 5px solid;
+    border-color: red;
+}
+
+.logo-sec{
+    border: 5px solid;
+}
+
+.logo{
+    width: 75px;
+    padding: 10px;
+}
+
+.search-sec{
+    border: 5px solid;
+    margin: auto;
+    padding: 10px;
+}
+
+.search-box{
+    text-align: center;
+    width: 200px;
+}
+
+.login-sec{
+    border: 5px solid;
+    margin: auto 0;
+    padding: 10px;
+}
+
+.login-sec a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.content{
+    border: 5px solid purple;
+    width: 25%;
+}
+
+.top-menu{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+} 
+
+.top-menu h2{
+    text-decoration: underline;
+}
+
+.top-menu ul{
+    text-align: center;
+    margin: auto;
+}
+
+.top-menu ul li{
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    margin-left: -40px;
+    padding: 5px;
+}
+
+.top-menu ul li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.center-menu{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+} 
+
+.center-menu h2{
+    text-decoration: underline;
+}
+
+.center-menu ul{
+    text-align: center;
+    margin: auto;
+}
+
+.center-menu ul li{
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    margin-left: -40px;
+    padding: 5px;
+}
+
+.center-menu ul li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.bottom-menu{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+} 
+
+.bottom-menu h2{
+    text-decoration: underline;
+}
+
+.bottom-menu ul{
+    text-align: center;
+    margin: auto;
+}
+
+.bottom-menu ul li{
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    margin-left: -40px;
+    padding: 5px;
+}
+
+.bottom-menu ul li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.column{
+    display: flex;
+}
+.row{
+    display: block;
 }
